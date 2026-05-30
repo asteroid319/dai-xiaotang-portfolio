@@ -38,7 +38,7 @@ const lensData = {
   user: {
     kicker: "User Context",
     title: "用户到底在什么场景里被卡住？",
-    body: "我会先拆用户、同行人、时间、预算、距离、风险和偏好。需求表达往往很短，但背后有很多隐性约束，AI 产品要先把这些约束看见。",
+    body: "我会先拆用户、同行人、时间、预算、距离、风险和偏好。需求表达往往很短，但背后有很多隐性约束，AI 工作流要先把这些约束看见。",
     tags: ["Intent", "Memory", "Hidden Needs"],
   },
   workflow: {
