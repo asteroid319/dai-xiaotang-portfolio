@@ -193,49 +193,6 @@ img {
   max-width: 690px;
 }
 
-.hero-system-card {
-  position: absolute;
-  right: 0;
-  bottom: 160px;
-  z-index: 1;
-  width: min(330px, 34vw);
-  padding: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 8px;
-  background: rgba(9, 27, 36, 0.5);
-  backdrop-filter: blur(18px);
-  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.22);
-}
-
-.hero-system-card p {
-  margin-bottom: 14px;
-  color: rgba(255, 255, 255, 0.66);
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.hero-system-card div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  padding: 12px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-.hero-system-card span {
-  color: var(--gold);
-  font-size: 12px;
-  font-weight: 900;
-}
-
-.hero-system-card strong {
-  color: #ffffff;
-  font-size: 15px;
-}
-
 .eyebrow {
   margin: 0 0 14px;
   color: var(--red);
@@ -1359,14 +1316,6 @@ h1 {
   .hero {
     min-height: calc(92vh - 86px);
     padding-top: 48px;
-  }
-
-  .hero-system-card {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    width: min(100%, 420px);
-    margin: 6px 0 20px;
   }
 
   .daily-hero {
